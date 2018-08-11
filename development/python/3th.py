@@ -35,7 +35,7 @@ def add_time ():
     for time in times:
         print time
         s.write(int_row,int_col,time)
-        s.write(int_row+1 , int_col ,times[time])        
+        s.write(int_row+1 , int_col ,times[time])         
         int_col+=1
 
 
